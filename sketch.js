@@ -113,7 +113,7 @@ function blueBalloons() {
   if (frameCount % 80 == 0) {
     var blueBalloon = createSprite(50, 100, 8, 8);
     blueBalloon.addImage("bln", balloonImg1);
-    blueBalloon.scale = 0.1;
+    blueBalloon.scale = 0.2;
     blueBalloon.velocityX = 3;
     blueBalloon.y = Math.round(random(50, 500));
     blueBalloon.lifetime = 150;
@@ -156,7 +156,7 @@ function redBalloons() {
     redBalloonGroup.add(redBalloon);
   }
 }
-
+//hii
 function createArrow() {
   arrow = createSprite(480, 300, 15, 5);
   arrow.y = bow.y;
